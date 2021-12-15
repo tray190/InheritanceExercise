@@ -29,11 +29,36 @@ namespace Inheritance
              * Creatively display the class member values 
              */
 
+            Bird COCO = new Bird();
+            {
+               COCO.Name = "COCO";
+                COCO.Age = 100;
+                COCO.Talons = 8;
+                COCO.Wings = "to fly";
+                COCO.Beak = "to crack open shells";
+                COCO.IsWarmBlooded = true;
+
+
+                Console.WriteLine($" I have a bird name {COCO.Name} she is {COCO.Age} has {COCO.Talons} talons she uses her wings {COCO.Wings},  is she warm blooded? {COCO.IsWarmBlooded}");
+                Console.ReadLine();
+            }
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
              *  
              * Creatively display the class member values 
              */
+
+            Reptile Reptar = new Reptile();
+
+            Reptar.Name = "Reptar";
+            Reptar.Age = 50;
+            Reptar.Scales = "wouuld have dry skin and scales";
+            Reptar.amnioteEgg = 3;
+            Reptar.MetanephricKidney = 2;
+            Reptar.IsColdBlooded = true;
+
+            Console.WriteLine($"I have a reptile name {Reptar.Name} he is {Reptar.Age} years old would have {Reptar.Scales} {Reptar.amnioteEgg} eggs {Reptar.MetanephricKidney} Kidney and he is cold blooded {Reptar.IsColdBlooded}");
+            Console.ReadLine();
         }
     }
 }
